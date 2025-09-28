@@ -3,7 +3,7 @@ SRC = main.cpp \
 	Zombie.cpp \
 	zombieHorde.cpp \
 
-INCLUDE = Zombie.hpp
+INCLUDE = Zombie.hpp Makefile
 
 OBJ = $(SRC:.cpp=.o)
 CC = clang++

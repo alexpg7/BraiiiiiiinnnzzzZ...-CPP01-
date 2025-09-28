@@ -2,7 +2,7 @@ NAME = main
 SRC = main.cpp \
 	Harl.cpp
 
-INCLUDE = Harl.hpp
+INCLUDE = Harl.hpp Makefile
 
 OBJ = $(SRC:.cpp=.o)
 CC = clang++

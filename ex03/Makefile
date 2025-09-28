@@ -7,6 +7,7 @@ SRC = main.cpp \
 INCLUDE = Weapon.hpp \
 	HumanA.hpp \
 	HumanB.hpp \
+	Makefile
 
 OBJ = $(SRC:.cpp=.o)
 CC = clang++

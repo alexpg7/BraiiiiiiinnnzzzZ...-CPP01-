@@ -1,7 +1,7 @@
 NAME = main
 SRC = main.cpp \
 
-INCLUDE =
+INCLUDE = Makefile
 
 OBJ = $(SRC:.cpp=.o)
 CC = clang++

@@ -4,7 +4,7 @@ SRC = main.cpp \
 	newZombie.cpp \
 	randomChump.cpp \
 
-INCLUDE = Zombie.hpp
+INCLUDE = Zombie.hpp Makefile
 
 OBJ = $(SRC:.cpp=.o)
 CC = clang++

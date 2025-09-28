@@ -1,6 +1,7 @@
 NAME = main
 SRC = main.cpp \
 
+INCLUDE = Makefile
 OBJ = $(SRC:.cpp=.o)
 CC = clang++
 CFLAGS = -Wall -Wextra -Werror -std=c++98

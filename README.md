@@ -3,7 +3,7 @@
 ![Static Badge](https://img.shields.io/badge/Makefile-green?style=flat&logo=AnkerMake)
 ![Static Badge](https://img.shields.io/badge/status-completed-green?style=flat)
 
-A first exercise as an introduction to C++ syntax.
+Some exercises to understand classes, heap allocations and references in C++.
 
 ## ⚒️ Compilation
 

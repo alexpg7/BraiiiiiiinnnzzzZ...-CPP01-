@@ -91,3 +91,28 @@ Goodbye
 ```
 
 In this case, it is the same as using the pointer. The key advantage of using references instead of pointers is that references must be initialized when declared. So, you can skip adding the null pointer exception (``if (!ptr) protect()``). The disadvantage is that you cannot reassign a reference; so, using references as single objects (``obj &ref = x``) is not that useful in the end.
+
+## 3️⃣ Ex03
+
+This exercise has zero interest, in my opinion. It is just meant to implement different classes that are constructed differently.
+
+## 4️⃣ Ex04
+
+This exercise is meant to introduce a new way to write in files: the ``std::ifstream`` and ``std:ofstream`` classes. They are declared using the ``input(filename)`` and ``output(filename)`` constructors. Then, we can use them as any stream buffer to write content inside. When we are done, we can use the ``.close()`` method to close the buffer stream 😃.
+
+## 5️⃣ Ex05
+
+Here, we are asked to use pointers to functions to use them. For example, ``void (Harl::*function)(void) = &Harl::_debug`` allows us to call the ``._debug`` method this two ways:
+
+```C++
+//*being inside the class*
+function();
+_debug();
+```
+
+This can be used to create a list of functions: ``void (Harl::*functions[]) (void) = {
+		&Harl::_debug,
+		&Harl::_info,
+		&Harl::_warning,
+		&Harl::_error
+	};`` and then, calling them with the index notation ``[i]``.
